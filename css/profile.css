@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: #24243e;
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    box-shadow: black;
+
+}
+
+td {
+    padding: 50px; 
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+tr:first-child>
+td:nth-child(2){
+    text-transform: capitalize;
+}
+
+td:last-child {
+    text-align: left;
+}
